@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">P2WeatherChannel</string>
+    <string name="sensor">Sensor:</string>
+    <string name="api">API:</string>
+    <string name="temperature">Temperature:\n-</string>
+    <string name="humidity">Humidity:\n-</string>
+    <string name="pressure">Pressure\n-</string>
+    <string name="timestamp">Timestamp:\n-</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

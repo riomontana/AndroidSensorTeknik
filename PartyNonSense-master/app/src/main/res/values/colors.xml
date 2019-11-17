@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#f5b619</color>
+    <color name="colorPrimaryDark">#846414</color>
+    <color name="colorAccent">#40c4ff</color>
+    <color name="progressBarMain">@android:color/holo_red_light</color>
+    <color name="progressBarInterval">@android:color/holo_green_light</color>
+    <color name="background">#ffffff</color>
+
+</resources>

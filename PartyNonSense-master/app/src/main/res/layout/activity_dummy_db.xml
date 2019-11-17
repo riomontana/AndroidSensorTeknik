@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.lfo.partynonsense.activitys.DummyDataBaseActivity"
+    tools:layout_editor_absoluteY="25dp">
+
+    <EditText
+        android:id="@+id/inputPlayer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="player name"
+        android:inputType="textPersonName"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toTopOf="@+id/btnAddPlayer"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnAddScore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="addScoreToDB"
+        android:text="add score"
+        app:layout_constraintBottom_toTopOf="@+id/btnGetHighscoreList"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnAddPlayer" />
+
+    <Button
+        android:id="@+id/btnAddPlayer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="addPlayerToDB"
+        android:text="ADD PLAYER"
+        app:layout_constraintBottom_toTopOf="@+id/btnAddScore"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/inputPlayer" />
+
+    <Button
+        android:id="@+id/btnResetDB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="resetDB"
+        android:text="RESET DB"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnGetHighscoreList" />
+
+    <Button
+        android:id="@+id/btnGetHighscoreList"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Get highscore list"
+        android:onClick="getHighscoreListFromDB"
+        app:layout_constraintBottom_toTopOf="@+id/btnResetDB"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnAddScore" />
+</android.support.constraint.ConstraintLayout>

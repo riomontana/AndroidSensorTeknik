@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Party Nonsense</string>
+
+
+    <string name="rotate_game_info">
+        "1. Hold your phone in front of you.\n2. Rotate in the direction and degrees as instructed.\n3. Move your hand over the earpiece to lock guess.\n"
+    </string>
+    <string name="whack_a_mole">
+        "1. Wait for the mole to appear.\n2. Whack your hand over the earpiece of the phone.\n3. Don't miss!\n"
+    </string>
+    <string name="amplitude_game">
+        "1. Try to match the volume of the top bar.\n2. When the bar turns green hold that volume to fill the bottom blue bar.\n3. Fill as many bars as possible.\n"
+    </string>
+    <string name="ball_game">
+        "1.Hold your phone vertical and use it as a balancing board.\n2. Catch as many stars you can before the times up.\n3. Catching several stars in a row gives you a pointsmultiplier.\n4. Touch the edges and lose your pointsmultiplier.\n"
+    </string>
+</resources>
